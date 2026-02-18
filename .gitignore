@@ -1,0 +1,26 @@
+# .gitignore
+# -------------------------------------------------------
+# WHAT IS THIS FILE?
+# This tells Git: "DO NOT upload these files to GitHub."
+# Some files should stay private or are auto-generated
+# and don't need to be shared.
+# -------------------------------------------------------
+
+# The database file — this is local data, don't share it
+db.sqlite3
+
+# Python cache files — auto-generated, not needed
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment folder — everyone installs their own
+venv/
+env/
+.env
+
+# Mac system files
+.DS_Store
+
+# VS Code settings
+.vscode/

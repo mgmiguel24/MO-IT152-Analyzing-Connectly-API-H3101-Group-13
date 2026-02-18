@@ -1,0 +1,11 @@
+# requirements.txt
+# -------------------------------------------------------
+# WHAT IS THIS FILE?
+# This is a shopping list of Python packages your project needs.
+# When someone else downloads your project, they run:
+#   pip3 install -r requirements.txt
+# ...and it installs everything automatically.
+# -------------------------------------------------------
+
+django>=4.2
+djangorestframework>=3.14
